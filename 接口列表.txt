@@ -1,0 +1,38 @@
+微票的一些接口：
+1. http://json.bmbstack.com/bannerList
+2. http://json.bmbstack.com/playingList
+3. http://json.bmbstack.com/cinemaList
+
+
+干货的接口文档：
+http://gank.io/api
+
+
+500px图片站的接口文档：
+https://github.com/500px/api-documentation
+
+
+天气预报接口：
+http://www.thinkpage.cn/doc
+
+
+京东获取单个商品价格接口:
+http://p.3.cn/prices/mgets?skuIds=J_商品ID&type=1
+ps:商品ID这么获取:http://item.jd.com/954086.html
+
+
+
+快递接口:
+http://www.kuaidi100.com/query?type=快递公司代号&postid=快递单号
+ps:快递公司编码:申通=”shentong” EMS=”ems” 顺丰=”shunfeng” 圆通=”yuantong” 中通=”zhongtong” 韵达=”yunda” 天天=”tiantian” 汇通=”huitongkuaidi” 全峰=”quanfengkuaidi” 德邦=”debangwuliu” 宅急送=”zhaijisong”
+
+
+阿里云根据地区名获取经纬度接口
+
+http://gc.ditu.aliyun.com/geocoding?a=苏州市
+
+参数解释: 纬度,经度type 001 (100代表道路，010代表POI，001代表门址，111可以同时显示前三项)
+
+阿里云根据经纬度获取地区名接口
+
+http://gc.ditu.aliyun.com/regeocoding?l=39.938133,116.395739&type=001
